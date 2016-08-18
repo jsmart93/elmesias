@@ -18,6 +18,8 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', include('home.urls')),
+    url(r'^', include('home.urls')),
     url(r'^contact/', include('contact.urls')),
+    url(r'^about/', include('about.urls')),
+    url(r'^prayer_request/', include('prayer_request.urls')),
 ]
