@@ -13,8 +13,10 @@ def send(request):
 	send_mail(
     	'Prayer Request',
     	"Name: " + name + '\n\n' + "Email: " + email + "\n\n" + "Phone: " + phone  + "\n\n" + "Prayer Request: \n\n" + prayer,
-    	'jmartinez1093@gmail.com',
-    	['jmartinez1093@gmail.com'],
+    	# 'jmartinez1093@gmail.com',
+    	# ['jmartinez1093@gmail.com'],
+    	'elmesiasfloresville@gmail.com',
+    	['elmesiasfloresville@gmail.com'],
     	fail_silently=False,
     )
 
